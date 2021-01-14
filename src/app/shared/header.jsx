@@ -87,7 +87,9 @@ const Header = ({ current }) => {
       <div id="home"></div>
       <section id="banner-principal" style={heightScreen} className="banner">
         <div>
-          <h1>Hi I'm Daniel Gazcón</h1>
+          <h1>
+            Hi I'm Daniel Gazcón<span>&#160;</span>
+          </h1>
           <h3>Junior Frontend Developer | JS</h3>
         </div>
       </section>

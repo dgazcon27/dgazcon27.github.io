@@ -56,10 +56,7 @@ export const projects = [
     subtitle: "Dashboard and Landing Page",
     content: `Aduanalibre is an e-commerce B2B that group and index all companies what work in free zone around the world`,
     img: require("../assets/images/aduanalibre.png"),
-    images: [
-      require("../assets/images/pic01.jpg"),
-      require("../assets/images/pic02.jpg"),
-    ],
+    images: [require("../assets/images/aduanalibre.png")],
     link: "",
     repo: "https://gitlab.com/aduanalibre/frontend",
   },

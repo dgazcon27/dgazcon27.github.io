@@ -29,10 +29,26 @@
 .banner h1 {
   font-size: 4.5em;
 }
+.banner h1 span {
+  position: absolute;
+  right: 23%;
+  width: 0;
+  background: #252934;
+  border-left: 1px solid #fff;
+  animation: write 5s steps(30);
+}
 .banner h3 {
   font-family: VT323;
 }
 
+@keyframes write {
+  from {
+    width: 60%;
+  }
+  to {
+    width: 0;
+  }
+}
 .banner2 {
   background-image: url("../images/img_parallax3.jpg");
   min-height: 200px;
@@ -77,9 +93,66 @@
   font-size: 3em;
 }
 
+@media screen and (max-width: 992px) {
+  .banner h1 span {
+    right: 18%;
+  }
+
+  @keyframes write {
+    from {
+      width: 75%;
+    }
+    to {
+      width: 0;
+    }
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar-items {
     padding: 0.5rem 1rem !important;
+  }
+
+  .banner h1 span {
+    right: 12%;
+  }
+
+  @keyframes write {
+    from {
+      width: 75%;
+    }
+    to {
+      width: 0;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner h1 span {
+    right: 7%;
+  }
+
+  @keyframes write {
+    from {
+      width: 85%;
+    }
+    to {
+      width: 0;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner h1 span {
+    height: 135px;
+    top: 41%;
+    right: 7%;
+  }
+
+  @keyframes write {
+    from {
+      width: 85%;
+    }
+    to {
+      width: 0;
+    }
   }
 }
 

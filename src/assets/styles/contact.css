@@ -70,4 +70,10 @@
   top: 0;
 }
 
+@media screen and (max-width: 500px) {
+  .contact-container .form-container form button {
+    width: 33%;
+  }
+}
+
 /*# sourceMappingURL=contact.css.map */
