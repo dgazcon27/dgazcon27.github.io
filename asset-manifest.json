@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e9eefa6.chunk.css",
-    "main.js": "/static/js/main.74afbe1f.chunk.js",
-    "main.js.map": "/static/js/main.74afbe1f.chunk.js.map",
+    "main.css": "/static/css/main.d8eb71ec.chunk.css",
+    "main.js": "/static/js/main.5791706b.chunk.js",
+    "main.js.map": "/static/js/main.5791706b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.238946b6.js",
     "runtime-main.js.map": "/static/js/runtime-main.238946b6.js.map",
     "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
-    "static/js/2.22a3dd46.chunk.js": "/static/js/2.22a3dd46.chunk.js",
-    "static/js/2.22a3dd46.chunk.js.map": "/static/js/2.22a3dd46.chunk.js.map",
+    "static/js/2.b8307b3c.chunk.js": "/static/js/2.b8307b3c.chunk.js",
+    "static/js/2.b8307b3c.chunk.js.map": "/static/js/2.b8307b3c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a26f6a5b55e3ffdfd79097a74c8b5198.js": "/precache-manifest.a26f6a5b55e3ffdfd79097a74c8b5198.js",
+    "precache-manifest.3ef27a526885ee19e4ff5768a8344acf.js": "/precache-manifest.3ef27a526885ee19e4ff5768a8344acf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.9e9eefa6.chunk.css.map": "/static/css/main.9e9eefa6.chunk.css.map",
-    "static/js/2.22a3dd46.chunk.js.LICENSE.txt": "/static/js/2.22a3dd46.chunk.js.LICENSE.txt",
+    "static/css/main.d8eb71ec.chunk.css.map": "/static/css/main.d8eb71ec.chunk.css.map",
+    "static/js/2.b8307b3c.chunk.js.LICENSE.txt": "/static/js/2.b8307b3c.chunk.js.LICENSE.txt",
     "static/media/5tenedores.png": "/static/media/5tenedores.2fa8d2b2.png",
     "static/media/main.css": "/static/media/VT323-Regular.692c3737.ttf",
     "static/media/aduanalibre.png": "/static/media/aduanalibre.61e787d2.png",
     "static/media/delete1.jpg": "/static/media/delete1.45254f68.jpg",
     "static/media/delete2.jpg": "/static/media/delete2.9b470fa4.jpg",
+    "static/media/home.png": "/static/media/home.e9d4e4db.png",
     "static/media/header.css": "/static/media/img_parallax3.73129a43.jpg",
     "static/media/loader.svg": "/static/media/loader.83727e5f.svg",
     "static/media/logo-delete.png": "/static/media/logo-delete.d7fa1744.png",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.238946b6.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.22a3dd46.chunk.js",
-    "static/css/main.9e9eefa6.chunk.css",
-    "static/js/main.74afbe1f.chunk.js"
+    "static/js/2.b8307b3c.chunk.js",
+    "static/css/main.d8eb71ec.chunk.css",
+    "static/js/main.5791706b.chunk.js"
   ]
 }
