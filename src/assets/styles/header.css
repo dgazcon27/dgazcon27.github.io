@@ -11,7 +11,7 @@
   src: url("../fonts/RobotoCondensed-Light.ttf");
 }
 .banner {
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-family: Arame;
@@ -40,15 +40,15 @@
 .banner h3 {
   font-family: VT323;
 }
-
-@keyframes write {
-  from {
-    width: 60%;
-  }
-  to {
-    width: 0;
-  }
+.banner .title-content {
+  margin-left: 15vw;
+  width: 55vw;
+  text-align: left;
 }
+.banner #sofa-image {
+  width: 70%;
+}
+
 .banner2 {
   background-image: url("../images/img_parallax3.jpg");
   min-height: 200px;
@@ -153,6 +153,11 @@
     to {
       width: 0;
     }
+  }
+}
+@media screen and (max-width: 500px) {
+  .bar-text {
+    display: none;
   }
 }
 

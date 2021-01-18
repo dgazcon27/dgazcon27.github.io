@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import gsap from "gsap";
 import "../../assets/styles/header.css";
 import avatar from "../../assets/images/mf-avatar.svg";
+import sofa from "../../assets/images/home.png";
 
 const Header = ({ current }) => {
   const [isScroll, setIsScroll] = useState(false);
@@ -46,6 +48,37 @@ const Header = ({ current }) => {
     };
   }, []);
 
+  useEffect(() => {
+    var tl = gsap.timeline();
+    let titleAnimation = tl.from(".words", {
+      duration: 2,
+      scale: 0.5,
+      opacity: 0,
+      delay: 0.5,
+      stagger: 0.2,
+      ease: "elastic",
+      force3D: true,
+    });
+
+    let sofaAnimation = tl.from("#sofa-image", {
+      duration: 1,
+      opacity: 0,
+      scale: 0.5,
+    });
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+      titleAnimation.play();
+      sofaAnimation.play();
+    });
+
+    return () => {
+      document.removeEventListener("DOMContentLoaded", function (event) {
+        titleAnimation.kill();
+        sofaAnimation.kill();
+      });
+    };
+  }, []);
+
   return (
     <div>
       <Navbar
@@ -86,11 +119,15 @@ const Header = ({ current }) => {
       </Navbar>
       <div id="home"></div>
       <section id="banner-principal" style={heightScreen} className="banner">
+        <div className="title-content">
+          <h1 className="words">Hi</h1>
+          <h1 className="words">I'm</h1>
+          <h1 className="words"> Daniel</h1>
+          <h1 className="words">Gazcón</h1>
+          <h3 className="words">Junior Frontend Developer | JS</h3>
+        </div>
         <div>
-          <h1>
-            Hi I'm Daniel Gazcón<span>&#160;</span>
-          </h1>
-          <h3>Junior Frontend Developer | JS</h3>
+          <img id="sofa-image" src={sofa} alt="my sofa" />
         </div>
       </section>
     </div>
