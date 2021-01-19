@@ -46,7 +46,7 @@ const About = ({ animateStats }) => {
                 now={20}
               />
               <ProgressBar
-                label={`${lang.label}%`}
+                label={`${lang.label}`}
                 variant="info"
                 now={lang.initial}
               />

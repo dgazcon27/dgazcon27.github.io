@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import gsap from "gsap";
 import "../../assets/styles/header.css";
-import avatar from "../../assets/images/mf-avatar.svg";
 import sofa from "../../assets/images/home.png";
 
 const Header = ({ current }) => {
@@ -127,7 +126,12 @@ const Header = ({ current }) => {
           <h3 className="words">Junior Frontend Developer | JS</h3>
         </div>
         <div>
-          <img id="sofa-image" src={sofa} alt="my sofa" />
+          <img
+            id="sofa-image"
+            className="d-none d-sm-block"
+            src={sofa}
+            alt="my sofa"
+          />
         </div>
       </section>
     </div>

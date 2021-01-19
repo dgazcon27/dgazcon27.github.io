@@ -138,6 +138,10 @@
       width: 0;
     }
   }
+  .banner .title-content {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 500px) {
   .banner h1 span {
@@ -154,8 +158,6 @@
       width: 0;
     }
   }
-}
-@media screen and (max-width: 500px) {
   .bar-text {
     display: none;
   }
