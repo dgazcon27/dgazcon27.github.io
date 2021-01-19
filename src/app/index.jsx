@@ -13,11 +13,13 @@ import Image from "./shared/images";
 import { posts, projects, socialNetworks } from "../helpers/data";
 import ModalComponent from "./shared/ModalComponent";
 import CarouselComponent from "./shared/CarouselComponent";
+import ReactGA from "react-ga";
 
 import "../assets/styles/post.css";
 import "../assets/styles/projects.css";
 
 const columns = { lg: 6, md: 6, sm: 6 };
+ReactGA.initialize("G-NQS81YJ2Z0");
 
 const App = () => {
   const [post, setPost] = useState();
@@ -36,6 +38,7 @@ const App = () => {
   };
 
   useEffect(() => {
+    ReactGA.pageview("/home");
     setPost(posts());
   }, []);
 

@@ -7,9 +7,6 @@ var firebaseConfig = {
   storageBucket: "portfolio-aa6bc.appspot.com",
   messagingSenderId: "15475591508",
   appId: "1:15475591508:web:e21c622717ed230f6c60c1",
-  measurementId: "G-NQS81YJ2Z0",
 };
 
-const Firebase = firebase.initializeApp(firebaseConfig);
-
-export default Firebase;
+export const Firebase = firebase.initializeApp(firebaseConfig);

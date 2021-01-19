@@ -6,7 +6,7 @@ import loader from "../../assets/images/loader.svg";
 import { Auth } from "../../context/AuthContext";
 
 import "../../assets/styles/contact.css";
-import Firebase from "../../utils/firebase";
+import { Firebase } from "../../utils/firebase";
 import firebase from "firebase/app";
 import "firebase/storage";
 import "firebase/firestore";
