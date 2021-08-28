@@ -18,7 +18,7 @@ import ReactGA from "react-ga";
 import "../assets/styles/post.css";
 import "../assets/styles/projects.css";
 
-const columns = { lg: 6, md: 6, sm: 6 };
+const columns = { lg: 6, md: 12, sm: 12, xs: 12 };
 ReactGA.initialize("G-NQS81YJ2Z0");
 
 const App = () => {
@@ -58,7 +58,6 @@ const App = () => {
           item.offsetTop + item.offsetHeight > fromTop
         ) {
           let current = item.attributes["data-box"].textContent;
-          console.log(current);
           currentBox = current;
         }
       });
@@ -93,7 +92,8 @@ const App = () => {
                     <Col
                       md={4}
                       lg={4}
-                      sm={6}
+                      sm={12}
+                      xs={12}
                       key={i}
                       className={`${contentclass} title-post center-text`}
                     >

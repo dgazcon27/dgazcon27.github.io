@@ -11,7 +11,7 @@
   src: url("../fonts/RobotoCondensed-Light.ttf");
 }
 .project-img img {
-  width: 100%;
+  height: 225px !important;
 }
 
 .container-project {
@@ -151,6 +151,26 @@ footer {
   .icons {
     position: relative;
     display: inline-flex;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project-img img {
+    height: 150px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-img img {
+    height: 200px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .project-img img {
+    height: 255px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .project-img img {
+    height: 170px !important;
   }
 }
 

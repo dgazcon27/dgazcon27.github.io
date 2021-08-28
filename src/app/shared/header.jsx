@@ -123,7 +123,7 @@ const Header = ({ current }) => {
           <h1 className="words">I'm</h1>
           <h1 className="words"> Daniel</h1>
           <h1 className="words">Gazcón</h1>
-          <h3 className="words">Junior Frontend Developer | JS</h3>
+          <h3 className="words">Full Stack Developer | Javascript </h3>
         </div>
         <div>
           <img

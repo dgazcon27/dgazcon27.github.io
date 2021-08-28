@@ -4,6 +4,9 @@ import {
   faTasks,
 } from "@fortawesome/free-solid-svg-icons";
 
+import koalaHome from "../assets/images/Web_PANTALLA_1.jpg";
+import koalaLogo from "../assets/images/Web_PC_inicial_2.jpg";
+
 export const posts = () => [
   {
     id: 1,
@@ -60,6 +63,16 @@ export const projects = [
     link: "",
     repo: "https://gitlab.com/aduanalibre/frontend",
   },
+  {
+    title: "AWKoala Play",
+    lang: "React/ExpressJs",
+    subtitle: "Interactive Game",
+    content: `AWKoala Play is an interactive game where children between 4 and 7 years old, with supervision of theirs parents can play and learn their first words`,
+    img: koalaLogo,
+    images: [require("../assets/images/aduanalibre.png")],
+    link: "http://awkoala.azurewebsites.net/",
+    repo: "",
+  },
 ];
 // una plataforma e-commerce B2B que funciona como un
 // directorio e indexa las empresas que hacen vida dentro de las zonas francas.
@@ -72,8 +85,32 @@ export const socialNetworks = {
 
 export const skills = [
   {
-    name: "HTML",
+    name: "JavaScript",
     level: 70,
+    label: "",
+    initial: 0,
+  },
+  {
+    name: "React",
+    level: 65,
+    label: "",
+    initial: 0,
+  },
+  {
+    name: "VueJs",
+    level: 50,
+    label: "",
+    initial: 0,
+  },
+  {
+    name: "React-Native",
+    level: 40,
+    label: "",
+    initial: 0,
+  },
+  {
+    name: "Nodejs",
+    level: 50,
     label: "",
     initial: 0,
   },
@@ -86,30 +123,6 @@ export const skills = [
   {
     name: "SASS",
     level: 55,
-    label: "",
-    initial: 0,
-  },
-  {
-    name: "JavaScript",
-    level: 65,
-    label: "",
-    initial: 0,
-  },
-  {
-    name: "React",
-    level: 55,
-    label: "",
-    initial: 0,
-  },
-  {
-    name: "React-Native",
-    level: 40,
-    label: "",
-    initial: 0,
-  },
-  {
-    name: "VueJs",
-    level: 50,
     label: "",
     initial: 0,
   },
