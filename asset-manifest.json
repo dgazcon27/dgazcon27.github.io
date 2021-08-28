@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.356d1ad8.chunk.css",
-    "main.js": "/static/js/main.39cd0239.chunk.js",
-    "main.js.map": "/static/js/main.39cd0239.chunk.js.map",
+    "main.css": "/static/css/main.0b615740.chunk.css",
+    "main.js": "/static/js/main.60c4eff6.chunk.js",
+    "main.js.map": "/static/js/main.60c4eff6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.238946b6.js",
     "runtime-main.js.map": "/static/js/runtime-main.238946b6.js.map",
     "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
-    "static/js/2.6fcd194b.chunk.js": "/static/js/2.6fcd194b.chunk.js",
-    "static/js/2.6fcd194b.chunk.js.map": "/static/js/2.6fcd194b.chunk.js.map",
+    "static/js/2.b9c2d2bf.chunk.js": "/static/js/2.b9c2d2bf.chunk.js",
+    "static/js/2.b9c2d2bf.chunk.js.map": "/static/js/2.b9c2d2bf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ccc6d9cb03f9a3a08bf8b3bc4ea47300.js": "/precache-manifest.ccc6d9cb03f9a3a08bf8b3bc4ea47300.js",
+    "precache-manifest.8e88c9e75d6dabeccd49b42508041d6f.js": "/precache-manifest.8e88c9e75d6dabeccd49b42508041d6f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.356d1ad8.chunk.css.map": "/static/css/main.356d1ad8.chunk.css.map",
-    "static/js/2.6fcd194b.chunk.js.LICENSE.txt": "/static/js/2.6fcd194b.chunk.js.LICENSE.txt",
+    "static/css/main.0b615740.chunk.css.map": "/static/css/main.0b615740.chunk.css.map",
+    "static/js/2.b9c2d2bf.chunk.js.LICENSE.txt": "/static/js/2.b9c2d2bf.chunk.js.LICENSE.txt",
     "static/media/5tenedores.png": "/static/media/5tenedores.2fa8d2b2.png",
     "static/media/main.css": "/static/media/VT323-Regular.692c3737.ttf",
+    "static/media/Web_PANTALLA_1.jpg": "/static/media/Web_PANTALLA_1.6a826f36.jpg",
+    "static/media/Web_PC_inicial_2.jpg": "/static/media/Web_PC_inicial_2.7bde4505.jpg",
     "static/media/aduanalibre.png": "/static/media/aduanalibre.61e787d2.png",
     "static/media/delete1.jpg": "/static/media/delete1.45254f68.jpg",
     "static/media/delete2.jpg": "/static/media/delete2.9b470fa4.jpg",
@@ -28,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.238946b6.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.6fcd194b.chunk.js",
-    "static/css/main.356d1ad8.chunk.css",
-    "static/js/main.39cd0239.chunk.js"
+    "static/js/2.b9c2d2bf.chunk.js",
+    "static/css/main.0b615740.chunk.css",
+    "static/js/main.60c4eff6.chunk.js"
   ]
 }
